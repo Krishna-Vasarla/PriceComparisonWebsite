@@ -1,0 +1,29 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+
+<div class="Elements">
+    <div class="amazon">
+        <img class="image" src="https://cdn.freebiesupply.com/images/large/2x/amazon-logo-transparent.png" >
+        <h3>{{amazon.title}}</h3>
+        <img src="{{amazon.image}}" style="width:20%;height:40%">
+        
+        <div class="last">
+            <p>Price ₹{{amazon.price}}</p>
+            <a href="{{amazon.link}}" ><button>Buy Now</button></a>
+        </div>
+    </div>
+    <div class="flipkart">
+        <img class="image" src="https://brandslogos.com/wp-content/uploads/images/flipkart-logo-vector.svg">
+        <h3>{{flipkart.title}}</h3>
+        <img  src="{{flipkart.image}}" style="width:20%;height:40%" >
+        <div class="last">
+            <p>Price {{flipkart.price}}</p>
+            <a href="{{flipkart.link}}" ><button>Buy Now</button></a>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}

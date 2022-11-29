@@ -1,0 +1,22 @@
+body{
+    background-color:rgb(8, 9, 8);
+}
+
+.header{
+    display : flex;
+    flex-direction : row;
+}
+.logo{
+    width :20px;
+    height : 20px;
+}
+.Elements
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top : 2%;
+}
+img{
+    max-width:20%;
+}
